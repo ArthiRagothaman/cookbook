@@ -1,5 +1,53 @@
 /* NAV BAR*/
 .navbar-expand-lg .navbar-collapse {
-
     justify-content: right;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.527), rgba(255, 255, 255, 0.5)), url('../images/bg.jpg') center center / cover no-repeat;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.intro__title {
+    color: #000;
+    font-size: 6em;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: Satisfy;
+}
+
+.intro__descr {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    margin: 0 5em;
+}
+
+.navbar-nav {
+    margin: 0 5em;
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+.cards {
+    margin-top: 50px;
 }
