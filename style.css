@@ -52,4 +52,73 @@ body {
 
 .cards {
     margin-top: 50px;
+    box-shadow: 0 1px 21px rgb(0 0 0 / 25%);
+}
+
+.recipe {
+    margin-top: 3em;
+}
+
+.recipe__img {
+    width: 25em;
+    margin: 5em;
+    box-shadow: 0 1px 21px rgb(0 0 0 / 25%);
+}
+
+.recipe__ingr {
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    display: none;
+}
+
+/* Checkboxes */
+input[type=checkbox]+label span {
+    border: 1px solid #000;
+    font-size: 24pt;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 0.25em;
+    margin: 4px 8px 8px 8px;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input[type=checkbox]:checked+label span::after {
+    content: "\2713";
+}
+
+/* Radio buttons */
+input[type=radio]+label span {
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-size: 40pt;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 0.35em;
+    margin: 4px 8px 8px 8px;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+input[type=radio]:checked+label span {
+    background: #000;
+}
+
+.input__title {
+    margin-bottom: 1em;
+}
+
+label {
+    display: flex;
 }
