@@ -35,8 +35,7 @@
                 Breakfast
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Porridge</a></li>
-                <li><a class="dropdown-item" href="#">Pancakes</a></li>
+                <li><a class="dropdown-item" href="recipesMarina/pancakes.html">Pancakes</a></li>
                 <li><a class="dropdown-item" href="recipe_breakfast_k.html">Crepes</a></li>
                 <li><a class="dropdown-item" href="#">Breakfast Wrap</a></li>
               </ul>
@@ -47,7 +46,7 @@
                 Main dishes
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Lasagna</a></li>
+                <li><a class="dropdown-item" href="chicken.html">Hit ‘n’ run traybaked chicken</a></li>
                 <li><a class="dropdown-item" href="#">Main dish 2</a></li>
                 <li><a class="dropdown-item" href="recipe_main_k.html">Pasta</a></li>
                 <li><a class="dropdown-item" href="#">Main dish 3</a></li>
@@ -59,7 +58,7 @@
                 Dessert
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Brownies</a></li>
+                <li><a class="dropdown-item" href="pavlova.html">Pavlova</a></li>
                 <li><a class="dropdown-item" href="#">Rice pudding</a></li>
                 <li><a class="dropdown-item" href="recipe_dessert_k.html">Chocolate Sticks</a></li>
                 <li><a class="dropdown-item" href="#">Apple crumble</a></li>
@@ -71,7 +70,7 @@
                 Drinks
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Chai Latte</a></li>
+                <li><a class="dropdown-item" href="/recipesMarina/">Freddo Cappuccino</a></li>
                 <li><a class="dropdown-item" href="#">Mango Lassi</a></li>
                 <li><a class="dropdown-item" href="recipe_drink_k.html">Hot chocolate</a></li>
                 <li><a class="dropdown-item" href="#">Moscow Mule</a></li>
@@ -100,47 +99,42 @@
 
   <section class="cards">
     <div class="container pb-5">
-      <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
 
         <!-- Start Card 1 -->
-
         <div class="col d-flex align-items-stretch">
-          <div class="card">
-            <img src="images/vegetable_cutlets.jpg" class="card-img-top" alt="vegetable_cutlets">
-            <div class="card-body">
-              <h5 class="card-title">Vegetable cutlets</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-dark">View recipe</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Start Card 2 -->
-
-        <div class="col d-flex align-items-stretch">
-          <div class="card">
-            <img src="images/pancake.jpg" class="card-img-top" alt="pancakes">
+          <div class="card" id="pancakes">
+            <img src="images/recipes_mary/pancake.jpg" class="card-img-top" alt="pancakes">
             <div class="card-body">
               <h5 class="card-title">Pancakes</h5>
               <p class="card-text">Easy, American-style, fluffy pancakes are great for feeding a crowd at breakfast. Top
                 with something sweet like fruit, jam or syrup, or rashers of crispy bacon.</p>
-              <button type="button" class="btn btn-dark">View recipe</button>
+              <a href="pancakes.html" type="button" class="btn btn-dark">View recipe</a>
             </div>
           </div>
         </div>
-
+        <!-- Start Card 2 -->
+        <div class="col d-flex align-items-stretch">
+          <div class="card" id="chicken">
+            <img src="images/recipes_mary/chicken.jpeg" class="card-img-top" alt="traybaked chicken">
+            <div class="card-body">
+              <h5 class="card-title">Hit ‘n’ run traybaked chicken</h5>
+              <p class="card-text">This recipe is a fail-safe easy dinner option, perfect for a busy weeknight when
+                you're looking for something easy with tasty ingredients.</p>
+              <a href="chicken.html" type="button" class="btn btn-dark">View recipe</a>
+            </div>
+          </div>
+        </div>
         <!-- Start Card 3 -->
 
         <div class="col d-flex align-items-stretch">
-          <div class="card">
-            <img src="images/recipes_katrin/Crepes-with-oranges-and-honey.jpg" class="card-img-top" alt="lasagna">
+          <div class="card" id="pavlova">
+            <img src="images/recipes_mary/pavlova.jpeg" class="card-img-top" alt="crepes">
             <div class="card-body">
-              <h5 class="card-title">Crepes</h5>
-              <p class="card-text">Easy, light and thin citrus crepes with honey and yogurt. Make the most of the citrus
-                season with these
-                sweet, lacy-edged crepes, perfect for breakfast or brunch!</p>
-              <button type="button" class="btn btn-dark" href="recipe_breakfast_k.html">View recipe</button>
+              <h5 class="card-title">Pavlova</h5>
+              <p class="card-text">With a delicate meringue crust on the outside, soft marshmallow on the inside, topped
+                with cream and seasonal fruit, the pav always steals the show at gatherings!</p>
+              <a href="pavlova.html" type="button" class="btn btn-dark" href="recipe_breakfast_k.html">View recipe</a>
             </div>
           </div>
         </div>
@@ -148,13 +142,13 @@
         <!-- Start Card 4 -->
 
         <div class="col d-flex align-items-stretch">
-          <div class="card">
-            <img src="images/cauliflower.jpg" class="card-img-top" alt="cauliflower">
+          <div class="card" id="freddo-cappuccino.html">
+            <img src="images/recipes_mary/freddo.jpeg" class="card-img-top" alt="freddo cappuchino">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <button type="button" class="btn btn-dark">View recipe</button>
+              <h5 class="card-title">Freddo Cappuccino</h5>
+              <p class="card-text">A freddo cappuccino is also called Greek cappuccino, or a Greek coffee with cold milk
+                foam. It's a strong iced coffee that you'll definitely want to taste!</p>
+              <a href="freddo-cappuccino.html" type="button" class="btn btn-dark">View recipe</a>
             </div>
           </div>
         </div>
