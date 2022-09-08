@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,6 +13,7 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -83,33 +84,99 @@
     </nav>
   </header>
 
-  <!-- Start Header pic and Intro Text -->
+  <!-- Start Container 1 – image, h1 and description -->
 
-  <div class="intro">
-    <div class="container">
-      <div class="intro__inner">
-        <h1 class="intro__title">Welcome to Angels' Kitchen</h1>
-        <div class="intro__descr">
-          Here you can find the best recipes
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-12">
+        <h1 class="recipe__title text-center">Crepes with oranges and honey</h1>
+      </div>
+      <div class="col-12 col-md-6">
+        <img src="images/recipes_katrin/Crepes-with-oranges-and-honey.jpg" alt="Crepe with oranges"
+          class="recipe__img rounded float-start img-thumbnail" />
+      </div>
+      <div class="col">
+        <div class="row pt-5">
+          <p class="recipe__descr">
+            Easy, light and thin citrus crepes with honey and yogurt. Make the most of the citrus season with these
+            sweet, lacy-edged crepes, perfect for breakfast or brunch!
+          </p>
+          <hr class="hr-description">
+          <div class="recipe__ingr">
+            <h2 class="input__title">Pancakes Ingredients</h2>
+            <input id='one' type='checkbox' />
+            <label for='one'>
+              <span></span>
+              2-4 medium blood oranges
+            </label>
+            <input id='two' type='checkbox' />
+            <label for='two'>
+              <span></span>
+              1 large orange
+            </label>
+            <input id='three' type='checkbox' />
+            <label for='three'>
+              <span></span>
+              2 medium clementines or nectarines
+            </label>
+            <input id='four' type='checkbox' />
+            <label for='four'>
+              <span></span>
+              120 g all-purpose flour
+            </label>
+            <input id='five' type='checkbox' />
+            <label for='five'>
+              <span></span>
+              2 medium eggs
+            </label>
+            <input id='six' type='checkbox' />
+            <label for='six'>
+              <span></span>
+              250 ml milk of choice
+            </label>
+            <input id='seven' type='checkbox' />
+            <label for='seven'>
+              <span></span>
+              177 ml sparkling water
+            </label>
+            <input id='eight' type='checkbox' />
+            <label for='eight'>
+              <span></span>
+              1 small pinch of salt
+            </label>
+            <input id='nine' type='checkbox' />
+            <label for='nine'>
+              <span></span>
+              2-3 tablespoon olive oil
+            </label>
+            <input id='ten' type='checkbox' />
+            <label for='ten'>
+              <span></span>
+              5 tablespoon yogurt of choice
+            </label>
+
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Start Cards Section -->
+  <!-- Start 3 cards -->
 
   <section class="cards">
-    <div class="container pb-5">
-      <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="container mb-5">
+      <h2 class="pb-4">My other recipes</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
 
         <!-- Start Card 1 -->
 
         <div class="col d-flex align-items-stretch">
           <div class="card">
-            <img src="images/vegetable_cutlets.jpg" class="card-img-top" alt="vegetable_cutlets">
+            <img src="images/recipes_katrin/Chocolate-sticks.jpg" class="card-img-top" alt="chocolate sticks">
             <div class="card-body">
-              <h5 class="card-title">Vegetable cutlets</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              <h5 class="card-title">Chocolate Sticks</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
                 content. This content is a little bit longer.</p>
               <button type="button" class="btn btn-dark">View recipe</button>
             </div>
@@ -120,11 +187,13 @@
 
         <div class="col d-flex align-items-stretch">
           <div class="card">
-            <img src="images/pancake.jpg" class="card-img-top" alt="pancakes">
+            <img src="images/recipes_katrin/Fusilli-with-basil-and-tomato.jpg" class="card-img-top"
+              alt="fusilli with tomato and basil">
             <div class="card-body">
-              <h5 class="card-title">Pancakes</h5>
-              <p class="card-text">Easy, American-style, fluffy pancakes are great for feeding a crowd at breakfast. Top
-                with something sweet like fruit, jam or syrup, or rashers of crispy bacon.</p>
+              <h5 class="card-title">Tomato basil Fusilli</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
               <button type="button" class="btn btn-dark">View recipe</button>
             </div>
           </div>
@@ -134,26 +203,12 @@
 
         <div class="col d-flex align-items-stretch">
           <div class="card">
-            <img src="images/recipes_katrin/Crepes-with-oranges-and-honey.jpg" class="card-img-top" alt="lasagna">
+            <img src="images/recipes_katrin/Hot-chocolate.jpg" class="card-img-top" alt="hot chocolate">
             <div class="card-body">
-              <h5 class="card-title">Crepes</h5>
-              <p class="card-text">Easy, light and thin citrus crepes with honey and yogurt. Make the most of the citrus
-                season with these
-                sweet, lacy-edged crepes, perfect for breakfast or brunch!</p>
-              <button type="button" class="btn btn-dark" href="recipe_breakfast_k.html">View recipe</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Start Card 4 -->
-
-        <div class="col d-flex align-items-stretch">
-          <div class="card">
-            <img src="images/cauliflower.jpg" class="card-img-top" alt="cauliflower">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <h5 class="card-title">Hot chocolate</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content.</p>
               <button type="button" class="btn btn-dark">View recipe</button>
             </div>
           </div>
@@ -167,6 +222,7 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
   <script src="script.js"></script>
+
 </body>
 
 </html>

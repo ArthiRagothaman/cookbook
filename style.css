@@ -1,10 +1,88 @@
 body {
     padding-top: 3.5rem;
+    background-color: hsla(74, 45%, 85%, 0.3);
+}
+
+/* Headings and text */
+
+h1.recipe__title {
+    font: 400 3.5rem/4.5rem 'Satisfy', 'Brush Script MT', cursive;
+    padding-top: 3rem;
+    color: hsl(90, 18%, 25%);
+}
+
+h2 {
+    font: 400 2rem/1.8rem 'Average Sans', Helvetica, sans-serif;
+}
+
+h5 {
+    font: 700 1.5rem/1.8rem 'Average Sans', Helvetica, sans-serif; 
+}
+
+p, 
+ul, 
+ol,
+.card-text {
+    font: 400 1.25rem/2.2rem 'Average Sans', Helvetica, sans-serif;
+}
+
+hr.hr-description {
+    border-top: 1px solid hsl(90, 19%, 29%);
+    margin:auto;
+    margin-top: 1.2rem;
 }
 
 /* NAV BAR*/
 .navbar-expand-lg .navbar-collapse {
     justify-content: right;
+}
+
+.navbar {
+    background-color: hsl(90, 19%, 29%);
+    font-family: 'Average Sans', Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.nav-link,
+.navbar-brand {
+    color:	hsl(0, 0%, 100%);
+}
+
+.nav-link:hover {
+    color: hsl(90, 74%, 80%);
+}
+
+.navbar-brand:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+    margin: 0 2.5em;
+}
+
+.navbar-nav {
+    margin: 0 5em;
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+.dropdown-menu {
+    background-color: hsl(90, 19%, 29%);
+    border: none;
+    border-radius: 2px;
+    padding: 1rem;
+}
+
+.dropdown-item {
+    color: hsl(0, 0%, 100%);
+}
+
+.dropdown-item:hover {
+    color: hsl(90, 18%, 25%);
 }
 
 .intro {
@@ -24,7 +102,7 @@ body {
 }
 
 .intro__title {
-    color: #000;
+    color: hsl(90, 19%, 29%);
     font-size: 6em;
     font-weight: 400;
     line-height: 1.2;
@@ -32,27 +110,16 @@ body {
 }
 
 .intro__descr {
+    font: 400 2rem/2.2rem 'Average Sans', Helvetica, sans-serif;
     color: #000;
-    font-family: 'Roboto';
-    font-size: 2em;
-    font-weight: 400;
-}
-
-.navbar-brand {
-    margin: 0 5em;
-}
-
-.navbar-nav {
-    margin: 0 5em;
-}
-
-.nav-item {
-    text-transform: uppercase;
 }
 
 .cards {
     margin-top: 50px;
-    box-shadow: 0 1px 21px rgb(0 0 0 / 25%);
+}
+
+.card {
+    border: 2px solid hsl(90, 18%, 25%, 0.5);
 }
 
 .recipe {
@@ -60,8 +127,8 @@ body {
 }
 
 .recipe__img {
-    width: 25em;
-    margin: 5em;
+    width: 28em; 
+    margin: 3em; 
     box-shadow: 0 1px 21px rgb(0 0 0 / 25%);
 }
 
@@ -79,7 +146,8 @@ input[type=radio] {
 
 /* Checkboxes */
 input[type=checkbox]+label span {
-    border: 1px solid #000;
+    border: 2px solid hsl(90, 18%, 25%);
+    border-radius: 3px;
     font-size: 24pt;
     display: inline-block;
     width: 20px;
@@ -97,7 +165,7 @@ input[type=checkbox]:checked+label span::after {
 
 /* Radio buttons */
 input[type=radio]+label span {
-    border: 1px solid #000;
+    border: 1px solid hsl(90, 18%, 25%);
     border-radius: 50%;
     font-size: 40pt;
     display: inline-block;
@@ -121,4 +189,17 @@ input[type=radio]:checked+label span {
 
 label {
     display: flex;
+}
+
+/* Button */
+.btn {
+    background-color: hsl(90, 18%, 18%, 0.8);
+    border: none;
+    padding: 0.5rem 3rem;
+    font: 400 1rem/2.2rem 'Average Sans', Helvetica, sans-serif;
+}
+
+.btn:hover {
+    background-color: hsl(90, 18%, 18%, 1);
+    border: none;
 }
