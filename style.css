@@ -52,7 +52,6 @@ body {
 
 .cards {
     margin-top: 50px;
-    box-shadow: 0 1px 21px rgb(0 0 0 / 25%);
 }
 
 .recipe {
@@ -121,4 +120,22 @@ input[type=radio]:checked+label span {
 
 label {
     display: flex;
+}
+
+/* Page up */
+
+.pageup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+    width: 90px;
+    height: 90px;
+}
+
+.pageup img {
+    width: 100%;
 }
