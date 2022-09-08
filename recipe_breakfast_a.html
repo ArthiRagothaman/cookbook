@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Cookbook – Three angels for Fabian</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Satisfy&display=swap"
+            rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <!-- Start Header with navigation -->
+
+        <header>
+            <nav class="fixed-top navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Angels' Cookbook</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Breakfast
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Porridge</a></li>
+                                    <li><a class="dropdown-item" href="#">Pancakes</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="recipe_breakfast_a.html">Samosa</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Breakfast dish</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Main dishes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">vegetablerice</a></li>
+                                    <li><a class="dropdown-item" href="#">Main dish 2</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="recipe_maindishes_a.html">vegetablerice</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Main dish 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dessert
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Gulab jamun</a></li>
+                                    <li><a class="dropdown-item" href="#">Kaju katli</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="recipe_dessert_a.html">Ladoo</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Sweet roti</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Drinks
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Coffee</a></li>
+                                    <li><a class="dropdown-item" href="#">Hot chocolate</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="recipe_drinks_a.html">Sweet Lassi</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Rose Milk</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Start Container 1 – image, h1 and description -->
+
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12">
+                    <h1 class="recipe__title text-center">
+                        Samosa with tamarind chutney
+                    </h1>
+                </div>
+                <div class="col-sm-12 col-md-6 mt-5">
+                    <img src="images/snacks.jpg" alt="Samosa with tamarind chutney"
+                        class="recipe__img rounded float-start img-thumbnail" />
+                </div>
+                <div class="col">
+                    <div class="row pt-5">
+                        <p class="recipe__descr">
+                            Samosa, a crispy and spicy deep fried snack that has an crisp and flaky outer
+                            layer made of maida and rich filling of
+                            mashed potato, peas and spices
+                        </p>
+                        <hr class="hr-description" />
+                        <div class="recipe__ingr">
+                            <h2 class="input__title">Samosa Ingredients</h2>
+                            <input id="one" type="checkbox" />
+                            <label for="one">
+                                <span></span>
+                                1/2 lb. (0.2 kg) potatoes, peeled
+                            </label>
+                            <input id="two" type="checkbox" />
+                            <label for="two">
+                                <span></span>
+                                2 tablespoons oil
+                            </label>
+                            <input id="three" type="checkbox" />
+                            <label for="three">
+                                <span></span>
+                                1/4 small onion, diced
+                            </label>
+                            <input id="four" type="checkbox" />
+                            <label for="four">
+                                <span></span>
+                                1/4 cup green peas, smashed
+                            </label>
+                            <input id="five" type="checkbox" />
+                            <label for="five">
+                                <span></span>
+                                1 tablespoon curry powder
+                            </label>
+                            <input id="six" type="checkbox" />
+                            <label for="six">
+                                <span></span>
+                                salt to taste
+                            </label>
+                            <input id="seven" type="checkbox" />
+                            <label for="seven">
+                                <span></span>
+                                spring roll wrappers, cut into 3 equal
+                                -sized rectangle pieces
+                            </label>
+                            <input id="eight" type="checkbox" />
+                            <label for="eight">
+                                <span></span>
+                                oil for deep-frying
+                            </label>
+                            <input id="nine" type="checkbox" />
+                            <label for="nine">
+                                <span></span>
+                                1/2 teaspoon chili powder
+                            </label>
+                            <input id="ten" type="checkbox" />
+                            <label for="ten">
+                                <span></span>
+                                1 teaspoon sugar
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start 3 cards -->
+
+        <section class="cards">
+            <div class="container mb-5">
+                <h2 class="pb-4">My other recipes</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Start Card 1 -->
+
+                    <div class="col d-flex align-items-stretch">
+                        <div class="card">
+                            <img src="images/drinks.jpg" class="card-img-top" alt="sweetlassi" />
+                            <div class="card-body">
+                                <h5 class="card-title">Sweet Lassi</h5>
+                                <p class="card-text">
+                                    Lassi is a cooling, refreshing, probiotic drink perfect
+                                    for the warm summer months.
+                                </p>
+                                <button type="button" class="btn btn-dark">View recipe</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Start Card 2 -->
+
+                    <div class="col d-flex align-items-stretch">
+                        <div class="card">
+                            <img src="images/rice.jpg" class="card-img-top" alt="Vegetable Rice" />
+                            <div class="card-body">
+                                <h5 class="card-title">Vegetable rice</h5>
+                                <p class="card-text">
+                                    Vegetable biryani is an aromatic rice dish made with
+                                    basmati rice, mix veggies, herbs & biryani spices.
+                                </p>
+                                <button type="button" class="btn btn-dark">View recipe</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Start Card 3 -->
+
+                    <div class="col d-flex align-items-stretch">
+                        <div class="card">
+                            <img src="images/dessert.jpg" class="card-img-top" alt="Dessert" />
+                            <div class="card-body">
+                                <h5 class="card-title">Sweet Ladoo</h5>
+                                <p class="card-text">
+                                    Motichoor ladoo are made with Tiny drops of
+                                    chickpea flour (boondi) are deep fried and then mixed
+                                    with a sugar syrup and then shaped into round balls
+                                </p>
+                                <button type="button" class="btn btn-dark">View recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
