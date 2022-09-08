@@ -117,10 +117,12 @@ hr.hr-description {
 
 .cards {
     margin-top: 50px;
+
 }
 
 .card {
     border: 2px solid hsl(90, 18%, 25%, 0.5);
+
 }
 
 .recipe {
@@ -191,6 +193,8 @@ input[type=radio]:checked+label span {
 label {
     display: flex;
 }
+
+
 
 /* Button */
 .btn {
