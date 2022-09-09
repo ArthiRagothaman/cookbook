@@ -105,7 +105,8 @@
   <body>
     <!-- Start Header with navigation -->
 
-    <header id="header">
+ 
+    <header>
       <nav class="fixed-top navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Angels' Cookbook</a>
@@ -133,14 +134,20 @@
                   Breakfast
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Porridge</a></li>
-                  <li><a class="dropdown-item" href="#">Pancakes</a></li>
+                  <li>
+                    <a class="dropdown-item" href="pancakes.html">Pancakes</a>
+                  </li>
                   <li>
                     <a class="dropdown-item" href="recipe_breakfast_k.html"
                       >Crepes</a
                     >
                   </li>
-                  <li><a class="dropdown-item" href="#">Egg-Arepa</a></li>
+                  <li>
+                    <a class="dropdown-item" href="recipe_breakfast_f.html"
+                      >Arepa</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Artih</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -154,12 +161,20 @@
                   Main dishes
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Lasagna</a></li>
-                  <li><a class="dropdown-item" href="#">Main dish 2</a></li>
+                  <li>
+                    <a class="dropdown-item" href="chicken.html"
+                      >Hit ‘n’ run traybaked chicken</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="recipe_main_f.html"
+                      >Ceviche</a
+                    >
+                  </li>
                   <li>
                     <a class="dropdown-item" href="recipe_main_k.html">Pasta</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Ceviche Peruana</a></li>
+                  <li><a class="dropdown-item" href="#">Main dish 3</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -173,14 +188,20 @@
                   Dessert
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Brownies</a></li>
-                  <li><a class="dropdown-item" href="#">Rice pudding</a></li>
+                  <li>
+                    <a class="dropdown-item" href="pavlova.html">Pavlova</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="recipe_dessert_f.html"
+                      >Cocadas Blancas</a
+                    >
+                  </li>
                   <li>
                     <a class="dropdown-item" href="recipe_dessert_k.html"
                       >Chocolate Sticks</a
                     >
                   </li>
-                  <li><a class="dropdown-item" href="#">Coconut-Candy</a></li>
+                  <li><a class="dropdown-item" href="#">Apple crumble</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -194,14 +215,22 @@
                   Drinks
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Chai Latte</a></li>
-                  <li><a class="dropdown-item" href="#">Mango Lassi</a></li>
+                  <li>
+                    <a class="dropdown-item" href="freddo-cappuccino.html"
+                      >Freddo Cappuccino</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="recipe_drink_f.html"
+                      >Fruit Cocktail</a
+                    >
+                  </li>
                   <li>
                     <a class="dropdown-item" href="recipe_drink_k.html"
                       >Hot chocolate</a
                     >
                   </li>
-                  <li><a class="dropdown-item" href="#">Fruit Cocktail</a></li>
+                  <li><a class="dropdown-item" href="#">Arthi-drink</a></li>
                 </ul>
               </li>
             </ul>
@@ -218,11 +247,7 @@
           <h1 class="recipe__title text-center">Cocadas Blancas</h1>
         </div>
       </div>
-      <div class="row pt-1 text-center">
-        <div class="col-12">
-          <button type="button" class="btn btn-dark">Share this recipe</button>
-        </div>
-      </div>
+      
       <div class="container pt-5">
         <div class="row pt-5">
           <div class="col-12 col-md-6">
@@ -365,7 +390,7 @@
 const message= "you might have to prepare it for a friend"
            
 function alertFunction() {
-  alert(location);
+  alert(message+" "+location);
 }
 </script>
     <!-- Start 3 cards -->
