@@ -131,7 +131,7 @@ hr.hr-description {
 
 .recipe__img {
     width: 28em;
-    margin: 3em;
+    /* margin: 3em; */
     box-shadow: 0 1px 21px rgb(0 0 0 / 25%);
 }
 
@@ -212,6 +212,16 @@ label {
 /* navbar burger */
 .navbar-toggler {
     background-color: #fff;
+}
+
+/* FOOTER */
+
+
+.footer {
+    background-color: hsl(90, 19%, 29%);
+    color: #fff;
+    font: 400 1.25rem/2.2rem 'Average Sans', Helvetica, sans-serif;
+
 }
 
 /* MEDIA */
