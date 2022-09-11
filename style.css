@@ -130,15 +130,9 @@ hr.hr-description {
 }
 
 .recipe__img {
-<<<<<<< HEAD
     width: 28em;
     /* margin: 3em; */
     box-shadow: 0 1px 21px rgb(0 0 0 / 25%);
-=======
-    width: 28em; 
-    /* margin: 3em; 
-*/    box-shadow: 0 1px 21px rgb(0 0 0 / 25%);
->>>>>>> fc93400 (prepare dessert)
 }
 
 .recipe__ingr {
